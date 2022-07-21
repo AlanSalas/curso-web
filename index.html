@@ -17,25 +17,29 @@
     <h6>Hola Mundo!</h6>
     <!-- Parrafo -->
     <p>
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, minima corrupti? Alias laudantium dolores est?
-      Accusantium eveniet, suscipit soluta fugit voluptatum odit porro? Temporibus, expedita doloribus. Fugiat deserunt
-      placeat dignissimos.
+      <b><i> Lorem ipsum dolor sit</i></b
+      >, amet consectetur adipisicing elit. Odio, minima corrupti? Alias laudantium dolores est? Accusantium eveniet,
+      suscipit soluta fugit voluptatum odit porro? Temporibus, expedita doloribus. Fugiat deserunt placeat dignissimos.
+      <b>Algo Importante</b>
     </p>
-    <p>
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, minima corrupti? Alias laudantium dolores est?
-      Accusantium eveniet, suscipit soluta fugit voluptatum odit porro? Temporibus, expedita doloribus. Fugiat deserunt
-      placeat dignissimos.
-    </p>
-    <p>
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, minima corrupti? Alias laudantium dolores est?
-      Accusantium eveniet, suscipit soluta fugit voluptatum odit porro? Temporibus, expedita doloribus. Fugiat deserunt
-      placeat dignissimos.
-    </p>
-    <p>
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, minima corrupti? Alias laudantium dolores est?
-      Accusantium eveniet, suscipit soluta fugit voluptatum odit porro? Temporibus, expedita doloribus. Fugiat deserunt
-      placeat dignissimos.
-    </p>
+    <!-- bold -->
+    <b>Negritas</b>
+    <!-- italic -->
+    <i>Italic</i>
+    <!-- strong -->
+    <strong>Strong</strong>
+    <!-- mark -->
+    <mark>Marcatextos</mark>
+    <!-- blockquote -->
+    <blockquote>
+      <p>La frase más imparte de bethoveen</p>
+      <!-- cite -->
+      <cite>- bethoveen</cite>
+    </blockquote>
+    <!-- underline -->
+    <u>underline</u>
+    <!-- del -->
+    <del>texto borrado</del>
     <!-- div -->
     <div style="border: 1px solid red">
       <h2>Subtitulo</h2>
@@ -51,13 +55,28 @@
       <footer>Pie de pagina enlaces</footer>
     </main>
     <!-- imagen -->
-    <img src="https://lacriaturacreativa.com/wp-content/uploads/2014/05/pelones-peleones.jpg" />
-    <video src="https://www.youtube.com/watch?v=_PdogVJx9Iw" width="100px" height="200px"></video>
+    <img src="./assets/imagen.png" />
+    <!-- video -->
+    <video controls width="500px" height="600px" src="./assets/yanfri.mp4"></video>
     <!-- formulario -->
     <form>
-      <input type="text" />
-      <br />
-      <input type="password" />
+      <div style="border: 1px solid red">
+        <label>Nombre:</label>
+        <input placeholder="Nombre placeholder" type="text" name="name" />
+      </div>
+      <div style="border: 1px solid red">
+        <label>Apellido:</label>
+        <input type="text" name="lastname" />
+      </div>
+      <div style="border: 1px solid red">
+        <label>Fecha:</label>
+        <input type="date" name="date" />
+      </div>
+      <div style="border: 1px solid red">
+        <label>Color:</label>
+        <input type="color" name="color" />
+      </div>
+      <input type="password" name="password" />
       <br />
       <input type="checkbox" />
       <br />
@@ -69,27 +88,53 @@
       <label>Radio Css</label>
       <input type="radio" id="css" name="lenguaje" value="css" />
       <br />
-      <select>
+      <select name="opciones">
         <option value="1">Opcion 1</option>
         <option value="2">Opcion 2</option>
         <option value="3">Opcion 3</option>
       </select>
-      <button>Enviar</button>
+      <button type="submit">Enviar</button>
+      <button type="reset">Borrar</button>
     </form>
     <!-- table -->
     <table style="border: 1px solid red">
-      <tr>
-        <thead>
+      <thead>
+        <tr>
           <th style="border: 1px solid red">Month</th>
           <th style="border: 1px solid red">Savings</th>
-        </thead>
-      </tr>
-      <tr>
-        <tbody>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
           <td style="border: 1px solid red">January</td>
           <td style="border: 1px solid red">$100</td>
-        </tbody>
-      </tr>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Total: 4</td>
+        </tr>
+      </tfoot>
     </table>
+    <!-- listas -->
+    <ol>
+      <li>Primero</li>
+      <li>Segundo</li>
+      <li>Tercero</li>
+      <li>Cuarto</li>
+    </ol>
+
+    <ul>
+      <li>Primero</li>
+      <li>Primero</li>
+      <li>Primero</li>
+      <li>Primero</li>
+    </ul>
+    <!-- enlace -->
+    <a href="./profile.html" target="_blank">Profile</a>
+    <!-- enlace -->
+    <a href="https://www.google.com" target="_blank">google</a>
   </body>
 </html>
+
+<!-- https://rr3---sn-npoe7nsy.googlevideo.com/videoplayback?expire=1658377541&ei=5YDYYp7fJ8qJz7sP-Yaz4Ao&ip=139.162.59.22&id=o-ACChCyp5GMV7LbNsqmbqwJnSM1HJ-f-TLk2zjqxbeLZk&itag=22&source=youtube&requiressl=yes&mh=75&mm=31%2C29&mn=sn-npoe7nsy%2Csn-npoeenll&ms=au%2Crdu&mv=m&mvi=3&pl=24&ctier=SH&initcwndbps=268750&vprv=1&mime=video%2Fmp4&cnr=14&ratebypass=yes&dur=21.733&lmt=1657110494562385&mt=1658355669&fvip=3&fexp=24001373%2C24007246&c=ANDROID&txp=6318224&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cctier%2Cvprv%2Cmime%2Ccnr%2Cratebypass%2Cdur%2Clmt&sig=AOq0QJ8wRQIhALL3ZjWzjRlVGFJRXMwN-awO49EUsstmDB4AEPtrEbpNAiBE3I5CRynAI0srSPTaw3kWKavXBmYj-kiAloBa1jEM_w%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRQIhANSkDRrxUKYtsPKk5Xe2Rp90YsgABuQ8DvtFr_4K7ZTJAiBnETmOB_k4V-egmW6U3XvVXZYZTfYZfxWWW2lAGWsJwA%3D%3D&title=tia-paola-ytshorts.savetube.me -->
