@@ -1,3 +1,48 @@
-h1 {
-    font-family: "Edu VIC WA NT Beginner", cursive;
+* {
+   margin: 0; 
+}
+
+
+/* Box Model */
+
+div {
+    display: block;
+    width: 500px;
+    height: 500px;
+    border: 1px solid red;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.example {
+    display: block;
+    width: 500px;
+    height: 500px;
+    border: 1px solid red;
+    margin: 10px;
+    padding: 10px;
+}
+
+.example-2 {
+    display: block;
+    width: 500px;
+    height: 500px;
+    border: 1px solid red;
+    margin: 10px 30px;
+    padding: 10px 50px;
+}
+
+.example-3 {
+    display: block;
+    width: 500px;
+    height: 500px;
+    border: 1px solid red;
+    margin: 10px 50px 100px 100px;
+    padding: 10px 50px 100px 100px; 
 }

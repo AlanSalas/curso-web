@@ -7,6 +7,18 @@
     <title>Pagina principal</title>
   </head>
 
+  <style>
+    table {
+      border: 1px solid black;
+      padding: 20px;
+    }
+    th,
+    td {
+      border: 1px solid black;
+      padding: 10px;
+    }
+  </style>
+
   <body>
     <!-- Titulos -->
     <h1>Hola Mundo!</h1>
@@ -19,7 +31,8 @@
     <p>
       <b><i> Lorem ipsum dolor sit</i></b
       >, amet consectetur adipisicing elit. Odio, minima corrupti? Alias laudantium dolores est? Accusantium eveniet,
-      suscipit soluta fugit voluptatum odit porro? Temporibus, expedita doloribus. Fugiat deserunt placeat dignissimos.
+      suscipit soluta fugit <span style="color: green"> voluptatum odit porro? </span> Temporibus, expedita doloribus.
+      Fugiat deserunt placeat dignissimos.
       <b>Algo Importante</b>
     </p>
     <!-- bold -->
@@ -97,24 +110,36 @@
       <button type="reset">Borrar</button>
     </form>
     <!-- table -->
-    <table style="border: 1px solid red">
-      <thead>
-        <tr>
-          <th style="border: 1px solid red">Month</th>
-          <th style="border: 1px solid red">Savings</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td style="border: 1px solid red">January</td>
-          <td style="border: 1px solid red">$100</td>
-        </tr>
-      </tbody>
-      <tfoot>
-        <tr>
-          <td>Total: 4</td>
-        </tr>
-      </tfoot>
+    <table>
+      <tr>
+        <thead>
+          <th>Month</th>
+          <th>Savings</th>
+        </thead>
+      </tr>
+      <tr>
+        <tbody>
+          <tr>
+            <td>January</td>
+            <td>$100</td>
+          </tr>
+          <tr>
+            <td>January</td>
+            <td>$100</td>
+          </tr>
+          <tr>
+            <td>January</td>
+            <td>$100</td>
+          </tr>
+        </tbody>
+      </tr>
+      <tr>
+        <tfoot>
+          <tr>
+            <td>Total: 4</td>
+          </tr>
+        </tfoot>
+      </tr>
     </table>
     <!-- listas -->
     <ol>
