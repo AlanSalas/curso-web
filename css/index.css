@@ -1,16 +1,71 @@
 * {
-   margin: 0; 
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Tags html */
+h1 {
+    color: red;
+}
+
+/* class */
+.por-clase  {
+    color: blue;
+}
+
+/* Id */
+#soy-unico {
+    color: green;
+}
+
+/* Tags html */
+/* cascade anidadado */
+/* article p {
+    color: yellow;
+    border: none;
+    margin: 0;
+    padding: 0;
+} */
+
+/* Tags html */
+/* cascade anidadado */
+/* pseudoclase */
+article p:first-of-type {
+    color: blueviolet;
+}
+
+/* Atributo y valor */
+[personalizado='cualquier-cosa'] {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
+
+/* Atributo */
+[personalizado] {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
+
+/* Box Model */
+p {
+    border: 10px solid red;
+    margin: 20px;
+    padding: 20px;
+}
+
+b {
+    width: 100px;
+    height: 200px;
 }
 
 
-/* Box Model */
-
-div {
-    display: block;
+/* div {
+    display: inline-block;
     width: 500px;
     height: 500px;
     border: 1px solid red;
-    margin-top: 10px;
+    margin-top: 60px;
     margin-right: 10px;
     margin-bottom: 10px;
     margin-left: 10px;
@@ -18,7 +73,7 @@ div {
     padding-right: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
-}
+} */
 
 .example {
     display: block;
@@ -45,4 +100,35 @@ div {
     border: 1px solid red;
     margin: 10px 50px 100px 100px;
     padding: 10px 50px 100px 100px; 
+}
+
+.p-hola {
+    font-size: 50px;
+    color: blue;
+}
+
+.content-box {
+    /* We need to calculate the final size of the content */
+    box-sizing: content-box;
+    width: 158px;
+    height: 158px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.border-box {
+    /* Avoid calculate padding */
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.size-20 {
+    font-size: 20px;
+}
+
+.color-red {
+    color: red;
 }
