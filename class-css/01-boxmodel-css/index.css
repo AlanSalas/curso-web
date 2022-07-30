@@ -1,0 +1,10 @@
+.box-model {
+  /* TOP - RIGHT - BOTTOM - LEFT */
+  margin: 20px 20px 20px 20px;
+  /* TOP, BOTTOM - RIFHT, LEFT */
+  padding: 20px 30px;
+  /* GENERAL */
+  border: 20px solid red;
+  width: 200px;
+  height: 200px;
+}

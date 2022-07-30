@@ -1,0 +1,54 @@
+/* * === 0 */
+* {
+  margin: 0;
+  box-sizing: border-box;
+  color: red;
+}
+
+/* Tag === 1 */
+/* p {
+  color: purple;
+} */
+
+/* 11 */
+/* p .color-blue {
+  color: black;
+} */
+
+/* 12 */
+/* div p .color-blue {
+  color: aqua;
+} */
+
+h2 {
+  color: green;
+}
+
+/* Clase === 10 */
+.color-blue {
+  color: blue;
+}
+
+/* Atribute === 10 */
+[attr] {
+  color: green;
+}
+
+/* Id === 100 */
+#p-orange {
+  color: coral;
+}
+
+/* div .classe-p {
+    color: darkblue;
+}  */
+
+/* Important === 10000 */
+/* p {
+  color: darkorchid !important;
+} */
+
+/* Important === 10000 */
+/* p {
+    color: red !important;
+} */

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Especificidad CSS</title>
+  </head>
+  <body>
+    <h1>Hi</h1>
+    <h2>How</h2>
+    <h3>Are</h3>
+    <h4>You?</h4>
+    <!-- Style === 1000 -->
+    <p id="p-orange" style="color: red">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti accusantium nulla, adipisci pariatur
+      praesentium a voluptates beatae fugit aliquid molestias id doloribus voluptatibus, recusandae magni sed
+      <span class="color-blue">necessitatibus cumque doloremque explicabo.</span>
+    </p>
+
+    <div>
+      <p>
+        <span class="color-blue"> Lorem ipsum d</span> olor sit amet consectetur adipisicing elit. Temporibus, tempore
+        est alias enim eius velit aut harum dolore a dolorem quisquam! Illum iste omnis modi, eum hic repellat facilis
+        officia?
+      </p>
+    </div>
+
+    <p attr>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum consequatur ducimus fugiat repellat! Quod aperiam
+      at, pariatur quibusdam nostrum recusandae magnam tempora velit, autem rem consectetur, corporis et ad animi?
+    </p>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+/* Global */
+* {
+  margin: 0;
+  box-sizing: border-box;
+  background: gainsboro;
+}
+
+/* Tag */
+p {
+  color: blue;
+}
+
+/* Class */
+.my-class {
+  width: 400px;
+  height: 400px;
+  border-radius: 1rem;
+  /* border: 1px solid black; */
+  box-shadow: -1px 7px 44px 0px rgba(0, 0, 0, 0.75);
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
+/* Id */
+#my-id {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  border: 1px solid black;
+}
+
+/* Attribute */
+[attr] {
+  font-size: 5rem;
+  color: green;
+}
+
+/* Attribute and value */
+[attr="yanfri"] {
+  font-size: 5rem;
+  color: red;
+}
