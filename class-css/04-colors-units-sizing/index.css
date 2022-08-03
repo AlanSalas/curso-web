@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 12px;
+}
+
+/* Colors */
+.hexa {
+  width: 100px;
+  height: 100px;
+  background-color: #0b219e;
+}
+
+.rgb {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(100, 20, 50, 1);
+}
+
+.hsl {
+  width: 100px;
+  height: 100px;
+  background-color: hsla(300, 80%, 40%, 0.5);
+}
+
+/* Units sizing */
+/* Absolutas */
+
+.pixels {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
+
+.cm {
+  width: 10cm;
+  height: 5cm;
+  border: 1px solid blue;
+}
+
+.mm {
+  width: 10mm;
+  height: 5mm;
+  border: 1px solid blue;
+}
+
+.in {
+  width: 10in;
+  height: 5in;
+  border: 1px solid blue;
+}
+
+/* Relatives */
+/* Take the value for the major parent */
+.rem {
+  width: 1rem;
+  height: 2rem;
+  border: 1px solid red;
+}
+
+.em-parent {
+  font-size: 10px;
+}
+
+/* Take the value of his parent most close to him */
+.em {
+  width: 1em;
+  height: 2em;
+  border: 1px solid green;
+}
+
+.container {
+  font-size: 12px;
+}
+
+.card-product {
+  width: 16.6rem;
+  height: 16.6rem;
+  padding: 1.6rem;
+  border: 1px solid black;
+  border-radius: 10%;
+}
+
+h1 {
+  font-size: 7.5rem;
+}
