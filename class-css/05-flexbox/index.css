@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.block {
+  border: 1px solid black;
+  display: block;
+  height: 200px;
+  width: 200px;
+}
+
+.inline {
+  border: 1px solid red;
+
+  display: inline;
+  height: 200px;
+  width: 200px;
+}
+
+.inline-block {
+  border: 1px solid green;
+
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+}
+
+.flex {
+  border: 1px solid blue;
+  display: flex;
+  flex-direction: row;
+  line-height: 100px;
+  /* flex-flow: column wrap; */
+  /* justify-content: center; */
+  align-items: baseline;
+  height: 500px;
+  width: 800px;
+}
+
+.item-200 {
+  border: 1px solid red;
+  height: 200px;
+}
